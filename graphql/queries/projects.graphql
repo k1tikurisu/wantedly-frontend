@@ -1,0 +1,16 @@
+query Projects {
+  projects {
+    id
+    title
+    whyDescription
+    whatDescription
+    howDescription
+    imageUrlSmall
+    imageUrlLarge
+    staffs {
+      id
+      name
+      avatarUrl
+    }
+  }
+}
