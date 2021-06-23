@@ -3,13 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next dev",
+    "lint": "next lint",
+    "format": "prettier . --write --ignore-path .eslintignore",
+    "release:patch": "standard-version --release-as patch",
+    "release:minor": "standard-version --release-as minor",
+    "release:major": "standard-version --release-as major"
   },
   "dependencies": {
     "next": "11.0.1",
+    "next-seo": "^4.26.0",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
@@ -17,6 +20,10 @@
     "@types/react": "17.0.11",
     "eslint": "7.29.0",
     "eslint-config-next": "11.0.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.1",
+    "standard-version": "^9.3.0",
     "typescript": "4.3.4"
   }
 }
