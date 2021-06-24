@@ -29,6 +29,12 @@ const App = ({ Component, pageProps }: AppProps) => {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <DefaultSeo {...SEO} />
+      <style global jsx>{`
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+        body {
+          font-family: 'Noto Sans JP', sans-serif;
+        }
+      `}</style>
       <Component {...pageProps} />
     </ApolloProvider>
   )
