@@ -9,7 +9,7 @@ export const Layout: React.FC<Props> = ({ children }) => {
   return (
     <div>
       <Header />
-      <div className="container px-4 mx-auto lg:max-w-5xl lg:mt-12">
+      <div className="container px-4 mx-auto lg:max-w-6xl lg:mt-12">
         {children}
       </div>
     </div>

@@ -30,9 +30,10 @@ const App = ({ Component, pageProps }: AppProps) => {
       </Head>
       <DefaultSeo {...SEO} />
       <style global jsx>{`
-        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
         body {
           font-family: 'Noto Sans JP', sans-serif;
+          background-color: #fafafa;
         }
       `}</style>
       <Component {...pageProps} />
