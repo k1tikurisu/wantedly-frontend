@@ -4,4 +4,4 @@ yarn.lock
 public
 build
 README.md
-generated
+__generated__
