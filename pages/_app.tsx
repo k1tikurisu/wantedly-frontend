@@ -33,7 +33,8 @@ const App = ({ Component, pageProps }: AppProps) => {
         @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
         body {
           font-family: 'Noto Sans JP', sans-serif;
-          background-color: #fff;
+          background-color: #fafafa;
+          color: #111827;
         }
       `}</style>
       <Component {...pageProps} />
