@@ -4,12 +4,12 @@ import { NextSeo } from 'next-seo'
 import { useProjectsQuery } from '../../__generated__/types'
 
 import { ProjectsListItem } from '../../components/ProjectsItem'
+import { SearchBox } from '../../components/Parts/SearchBox'
 
 const ProjectsListPage: React.FC = () => {
   const { data } = useProjectsQuery()
   const projects = data?.projects
 
-  // 検索ワード
   const [keywords, setKeywords] = useState('')
   const [filteredProjects, setFilteredProjects] = useState(projects)
 
@@ -17,11 +17,6 @@ const ProjectsListPage: React.FC = () => {
     target: { value: React.SetStateAction<string> }
   }) => {
     setKeywords(e.target.value)
-  }
-
-  // enterでページ遷移するの防止
-  const handleSubmit = (e: { preventDefault: () => void }) => {
-    e.preventDefault()
   }
 
   useEffect(() => {
@@ -38,15 +33,7 @@ const ProjectsListPage: React.FC = () => {
         description="Wantedly Frontend Internship 選考課題"
       />
       <div className="p-8">
-        <div className="bg-white flex items-center rounded-full shadow-xl">
-          <input
-            className="rounded-full w-full py-4 px-6 leading-tight focus:outline-none"
-            id="search"
-            type="text"
-            placeholder="Search"
-            onChange={handleSearch}
-          />
-        </div>
+        <SearchBox handleSearch={handleSearch} />
       </div>
       <div className="flex flex-wrap">
         {filteredProjects?.map((project) => {
