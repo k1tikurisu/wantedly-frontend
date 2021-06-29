@@ -15,6 +15,7 @@ https://user-images.githubusercontent.com/67625825/123779170-d9181080-d90c-11eb-
   - Projects  ([Roadmap](https://github.com/Daaiki/wantedly-frontend/projects/1))
 - mainブランチからfeatureブランチを切って、プルリクエストを利用した開発をしました。(GitHub Flow)
 - PrettierやESlintを用いて、記述方式を管理しました。
+- git-czを使って、コミットメッセージを統一しました。prefixはAngularのコミュニティを参考にしています。
 
 ## 主な使用技術
 - Next.js (React)
