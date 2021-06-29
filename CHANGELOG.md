@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.0](https://github.com/Daaiki/wantedly-frontend/compare/v0.1.0...v1.0.0) (2021-06-29)
+
+
+### Features
+
+* 🎸 add sticky footer ([9370a31](https://github.com/Daaiki/wantedly-frontend/commit/9370a31e433323da740016fa34ae667a6c78c6a3))
+
 ## 0.1.0 (2021-06-29)
 
 ### Features
