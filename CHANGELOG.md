@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.1](https://github.com/Daaiki/wantedly-frontend/compare/v1.0.0...v1.0.1) (2021-06-29)
+
+
+### Features
+
+* 🎸 add link ([6dc2eb7](https://github.com/Daaiki/wantedly-frontend/commit/6dc2eb744436e31a81a0417ca9ff7b3b8742fa58))
+
 ## [1.0.0](https://github.com/Daaiki/wantedly-frontend/compare/v0.1.0...v1.0.0) (2021-06-29)
 
 
