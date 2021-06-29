@@ -11,7 +11,7 @@ const Home: React.FC = () => {
         description="Wantedly Frontend Internship 選考課題"
       />
       <Link href="/projects">
-        <a>募集リストを見る</a>
+        <a className="text-blue-400 hover:text-blue-900">募集リストを見る</a>
       </Link>
     </Layout>
   )
