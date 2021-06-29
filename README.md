@@ -1,4 +1,13 @@
 # Wantedly Internship 選考課題
+すこし白飛びしています  
+
+https://user-images.githubusercontent.com/67625825/123779170-d9181080-d90c-11eb-805a-d8893ec1b811.mp4  
+
+## セットアップ
+```
+  $ yarn install
+  $ yarn start
+```
 
 ## 工夫したところ
 チームでの開発を意識しました。
